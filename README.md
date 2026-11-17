@@ -13,22 +13,31 @@ I work on security log analysis, alert investigation, and documenting security i
 - Sysmon
 - Linux
 - Wireshark
-- SIEM Alert Analysis
-- Incident Response
-- Security Documentation
+- SIEM alert analysis
+- Incident response
+- Security documentation
 
-## Projects
+## Portfolio Sections
 
-My practical cybersecurity projects and investigation reports will be documented in this repository.
+- [Incident Reports](incident-reports/README.md)
+- [Splunk Investigations](splunk-investigations/README.md)
+- [Windows Event Analysis](windows-event-analysis/README.md)
+- [Phishing Analysis](phishing-analysis/README.md)
+- [Malware Alert Analysis](malware-analysis/README.md)
+- [Incident Response Playbooks](playbooks/README.md)
+
+## Report Template
+
+Use the [incident investigation report template](incident-reports/REPORT-TEMPLATE.md) to document lab investigations consistently.
 
 ## Areas of Interest
 
-- SOC Operations
-- Blue Team
-- Threat Detection
-- Log Analysis
-- Incident Investigation
+- SOC operations
+- Blue team operations
+- Threat detection
+- Log analysis
+- Incident investigation
 
 ## Disclaimer
 
-All practical demonstrations are conducted using authorized lab environments and synthetic or sanitized data.
+All practical demonstrations are conducted using authorized lab environments and synthetic or sanitized data. No confidential organization data, credentials, or malware binaries are included.
