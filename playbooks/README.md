@@ -1,13 +1,7 @@
 # Incident Response Playbooks
 
-This folder contains concise defensive procedures for common SOC alert types.
+## Available material
 
-## Planned content
+- [Suspicious download / file-creation alert playbook](suspicious-download-playbook.md) — alert validation, endpoint correlation, risk assessment, authorized response, escalation and handoff template.
 
-- Suspicious login investigation
-- Phishing report triage
-- Suspicious file alert triage
-- Evidence collection checklist
-- Escalation and closure criteria
-
-Playbooks will focus on authorized defensive workflows and clear documentation.
+This playbook is a defensive reference. Actions such as endpoint isolation or quarantine must follow the organization's authorization and response procedures.
