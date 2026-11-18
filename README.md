@@ -43,7 +43,8 @@ A personal Chrome-extension prototype that reviews outgoing Gmail messages and d
 
 ## Training
 
-- [Tutedude Cyber Security Course — completion record and certificate details](training/README.md)
+- [Tutedude Cyber Security Course — completion record](training/README.md)
+- [View / download original Tutedude certificate (PDF)](training/certificate_TD-ARYA-CS-0613.pdf)
 - Completed: 11 November 2026
 - Certificate ID: `TD-ARYA-CS-0613`
 
