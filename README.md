@@ -14,6 +14,15 @@ This repository documents my cybersecurity learning and practical blue-team work
 - [Stylesheet](styles.css)
 - GitHub Pages deployment: configure **Settings → Pages → Deploy from a branch → main → /(root)**.
 
+## Project evidence visuals
+
+- [PhishGuard outgoing-email review flow](evidence/phishguard-flow.svg)
+- [Sysmon Event ID 11 vs Event ID 3 reference](evidence/windows-event-map.svg)
+- [Synthetic phishing triage workflow](evidence/phishing-triage-flow.svg)
+- [Suspicious file alert triage workflow](evidence/file-alert-triage.svg)
+
+These are explanatory diagrams based on the project notes, not screenshots of live tools or production systems. Original Splunk screenshots from the Ubuntu SSH lab are in [incident-reports](incident-reports/).
+
 ## Practical work
 
 ### 1. Ubuntu SSH authentication review — screenshot-based lab investigation
