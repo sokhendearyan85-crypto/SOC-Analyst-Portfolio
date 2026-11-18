@@ -2,7 +2,7 @@
 
 A portfolio of practical cybersecurity learning projects focused on SOC operations, blue-team investigation, security event analysis and incident response documentation.
 
-## 🌐 Portfolio Website
+## Portfolio Website
 
 A responsive portfolio homepage is included in this repository. To publish it, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub Pages will show the published URL after deployment.
 
