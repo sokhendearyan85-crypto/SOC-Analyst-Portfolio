@@ -1,13 +1,7 @@
 # Windows Event Analysis
 
-This folder contains notes and reports based on Windows event logs collected in authorized lab environments.
+## Available material
 
-## Planned content
+- [Sysmon Event ID 11 vs Event ID 3](sysmon-event-11-vs-3.md) — explains file-creation versus network-connection telemetry, useful fields, example Splunk searches, correlation workflow and interpretation limits.
 
-- Security event review
-- Account logon activity
-- Process creation events
-- Event timelines
-- Findings and investigation limitations
-
-Each report will identify the relevant event IDs and explain what the available evidence does and does not establish.
+This guide provides query examples and methodology. It is not a claim that a specific endpoint incident has been investigated.
