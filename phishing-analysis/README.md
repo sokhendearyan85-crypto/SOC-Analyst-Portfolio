@@ -1,13 +1,7 @@
 # Phishing Analysis
 
-This folder contains phishing investigation exercises using synthetic or safely sanitized email samples.
+## Available material
 
-## Planned content
+- [Synthetic phishing email triage exercise](synthetic-phishing-triage.md) — worked fictional scenario covering sender/Reply-To review, authentication headers, URL inspection, evidence limits and response.
 
-- Sender and reply-to review
-- Header and authentication observations
-- URL and domain indicators
-- Attachment metadata
-- Risk assessment and recommended actions
-
-Live malicious links or unsafe attachments will not be included.
+The example uses reserved `.invalid` domains and is not a real email investigation. Add a real lab case only with sanitized headers and evidence.
