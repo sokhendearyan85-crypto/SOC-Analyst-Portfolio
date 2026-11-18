@@ -1,21 +1,28 @@
 # SOC Analyst Portfolio
 
+A public portfolio of practical cybersecurity learning projects focused on SOC operations, blue-team investigation, log analysis and incident response documentation.
+
+## 🌐 Portfolio Website
+
+A responsive portfolio homepage is included in this repository:
+- [Open the website source](index.html)
+- [View the portfolio repository](https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio)
+
+**To publish the website:** open this repository's **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub will provide the public Pages URL after deployment.
+
 ## About
 
-I am interested in cybersecurity, particularly Security Operations Center (SOC), threat investigation, and incident response.
+I am developing practical skills in security event analysis, alert triage, threat investigation and incident reporting. This repository documents learning exercises and lab-based investigations.
 
-I work on security log analysis, alert investigation, and documenting security incidents.
+## Technical Areas
 
-## Technical Skills
-
-- Splunk
-- Windows Event Logs
-- Sysmon
-- Linux
-- Wireshark
-- SIEM alert analysis
-- Incident response
-- Security documentation
+- Splunk and SIEM investigations
+- Windows Security Event Logs and Sysmon
+- Linux fundamentals
+- Wireshark and network traffic analysis
+- Alert triage and event correlation
+- Phishing and malware alert analysis
+- Incident response and technical reporting
 
 ## Portfolio Sections
 
@@ -26,18 +33,10 @@ I work on security log analysis, alert investigation, and documenting security i
 - [Malware Alert Analysis](malware-analysis/README.md)
 - [Incident Response Playbooks](playbooks/README.md)
 
-## Report Template
+## Reporting
 
-Use the [incident investigation report template](incident-reports/REPORT-TEMPLATE.md) to document lab investigations consistently.
-
-## Areas of Interest
-
-- SOC operations
-- Blue team operations
-- Threat detection
-- Log analysis
-- Incident investigation
+Use the [incident investigation report template](incident-reports/REPORT-TEMPLATE.md) to document investigations consistently.
 
 ## Disclaimer
 
-All practical demonstrations are conducted using authorized lab environments and synthetic or sanitized data. No confidential organization data, credentials, or malware binaries are included.
+All practical demonstrations are conducted in authorized lab environments and use synthetic or sanitized data. These are learning demonstrations, not claims about real client incidents. No confidential organization data, credentials or malware binaries are included.
