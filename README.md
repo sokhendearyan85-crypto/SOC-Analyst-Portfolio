@@ -2,7 +2,7 @@
 
 A public portfolio of practical cybersecurity learning projects focused on SOC operations, blue-team investigation, log analysis and incident response documentation.
 
-## 🌐 Portfolio Website
+## Portfolio Website
 
 A responsive portfolio homepage is included in this repository:
 - [Open the website source](index.html)
