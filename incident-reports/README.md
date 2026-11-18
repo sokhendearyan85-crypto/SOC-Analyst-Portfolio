@@ -1,9 +1,10 @@
 # Incident Reports
 
-This folder contains security incident investigation reports.
+This directory contains one worked, fictional authentication investigation and a reusable report template.
 
-Each report documents the alert details, investigation process, evidence, findings, and recommended actions.
+## Available material
 
-## Reports
+- [Sample authentication activity investigation](sample-authentication-investigation.md) — four synthetic Windows Security events, timeline, cautious assessment and defensive follow-up.
+- [Incident investigation report template](REPORT-TEMPLATE.md) — structured template for documenting evidence, analysis, verdict and limitations.
 
-Reports will be added as investigation projects are completed.
+The sample is explicitly synthetic. It is not evidence of a real incident or client engagement. Add new case reports only after reviewing actual authorized lab evidence.
