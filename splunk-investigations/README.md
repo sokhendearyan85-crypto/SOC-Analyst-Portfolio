@@ -1,14 +1,8 @@
 # Splunk Investigations
 
-This folder contains Splunk searches and investigation notes created in authorized lab environments.
+## Available material
 
-## Planned content
+- [Authentication event review](authentication-event-review.md) — SPL example and analyst notes for Windows Security Event IDs 4624 and 4625.
+- [Authentication investigation query pack](authentication-investigation-query-pack.md) — reusable searches for event discovery, timeline review, failure summaries and successful sign-ins.
 
-- Authentication event searches
-- Failed and successful login correlation
-- Time-based event analysis
-- Alert triage notes
-
-Each investigation will include its data source, search query, time range, observations, limitations, and conclusion.
-
-No real organization data or credentials will be stored here.
+**Evidence status:** These are documented SPL examples, not screenshots or results from a live Splunk search. Field names and index/sourcetype values must be validated in the analyst's lab.
