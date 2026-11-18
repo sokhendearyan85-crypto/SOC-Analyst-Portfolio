@@ -33,37 +33,37 @@
     <section class="section" id="work">
       <div class="section-head"><div><div class="kicker">01 / PRACTICAL WORK</div><h2>Lab investigations & notes</h2></div><p>Each entry is labelled as a lab investigation, synthetic exercise, query reference or reusable playbook.</p></div>
       <div class="project-grid">
-        <a class="project featured" href="incident-reports/ubuntu-ssh-authentication-review.md">
+        <a class="project featured" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/blob/main/incident-reports/ubuntu-ssh-authentication-review.md">
           <div class="project-meta"><span>UBUNTU · SPLUNK</span><span>01</span></div>
           <h3>SSH Authentication Review</h3>
           <p>Reviewed Ubuntu auth.log screenshots in Splunk. Documented accepted and failed SSH authentication events and the limits of the available evidence.</p>
           <span class="project-link">Read lab report ↗</span>
         </a>
-        <a class="project" href="splunk-investigations/">
+        <a class="project" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/tree/main/splunk-investigations">
           <div class="project-meta"><span>SIEM · SPL</span><span>02</span></div>
           <h3>Splunk Query Notes</h3>
           <p>Search examples and analyst notes for reviewing Windows authentication events.</p>
           <span class="project-link">Open notes ↗</span>
         </a>
-        <a class="project" href="windows-event-analysis/">
+        <a class="project" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/tree/main/windows-event-analysis">
           <div class="project-meta"><span>WINDOWS · SYSMON</span><span>03</span></div>
           <h3>Windows Event Analysis</h3>
           <p>Notes on file-creation and network-connection telemetry, with example searches and investigation cautions.</p>
           <span class="project-link">View notes ↗</span>
         </a>
-        <a class="project" href="phishing-analysis/">
+        <a class="project" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/tree/main/phishing-analysis">
           <div class="project-meta"><span>EMAIL · TRAINING</span><span>04</span></div>
           <h3>Phishing Triage Exercise</h3>
           <p>A fictional email scenario used to practise sender, header and URL review.</p>
           <span class="project-link">View exercise ↗</span>
         </a>
-        <a class="project" href="malware-analysis/">
+        <a class="project" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/tree/main/malware-analysis">
           <div class="project-meta"><span>ENDPOINT · TRIAGE</span><span>05</span></div>
           <h3>Suspicious File Alert Triage</h3>
           <p>A defensive workflow for collecting alert context, reviewing metadata and recording limitations.</p>
           <span class="project-link">View workflow ↗</span>
         </a>
-        <a class="project" href="playbooks/">
+        <a class="project" href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/tree/main/playbooks">
           <div class="project-meta"><span>INCIDENT RESPONSE</span><span>06</span></div>
           <h3>Response Playbook</h3>
           <p>A checklist for suspicious download and file-creation alerts, escalation and handoff.</p>
@@ -72,6 +72,17 @@
       </div>
     </section>
 
+
+    <section class="evidence-section">
+      <div class="section-head"><div><div class="kicker">EVIDENCE / UBUNTU LAB</div><h2>Splunk screenshots</h2></div><p>Original screenshots from the SSH authentication review. Open the report for the full timeline and analysis.</p></div>
+      <div class="evidence-grid">
+        <figure><img src="incident-reports/Accepted%281%29.png" alt="Splunk search showing 416 matching Ubuntu authentication events"><figcaption>Overall event search · 416 events</figcaption></figure>
+        <figure><img src="incident-reports/Accepted_Pass.png" alt="Splunk result showing accepted SSH password for vboxuser"><figcaption>Accepted SSH password · vboxuser</figcaption></figure>
+        <figure><img src="incident-reports/Rejected%281%29.png" alt="Splunk events showing failed SSH authentication attempts"><figcaption>Failed authentication messages</figcaption></figure>
+        <figure><img src="incident-reports/Rejected_Pass.png" alt="Splunk results showing PAM failures and SSH retry-limit messages"><figcaption>PAM failures and SSH retry limits</figcaption></figure>
+      </div>
+      <p class="evidence-note"><a href="https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio/blob/main/incident-reports/ubuntu-ssh-authentication-review.md">Read the full investigation report ↗</a></p>
+    </section>
     <section class="skills-section" id="training">
       <div class="section-head"><div><div class="kicker">02 / TRAINING</div><h2>Coursework</h2></div><p>Training completed and recorded as stated by me. Supporting certificate details can be added when available.</p></div>
       <div class="training-card">
