@@ -6,6 +6,11 @@
   <meta name="description" content="Aryan's cybersecurity portfolio: SOC lab investigations, Splunk, Ubuntu authentication logs and Python security tools.">
   <title>Aryan | Cybersecurity & SOC Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .email-line{color:inherit}
+    .email-line strong{color:inherit;font-weight:700;text-decoration:underline;word-break:break-all}
+    .copy-email{margin-left:8px;padding:4px 12px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:.85em;cursor:pointer}
+  </style>
 </head>
 <body>
   <header class="topbar">
@@ -78,13 +83,13 @@
           <p>Review of Linux or Windows authentication logs, with a clear timeline of what the logs show and what still needs validation.</p>
           <span class="project-link">See sample report ↗</span>
         </a>
-        <a class="project" href="mailto:sokhendearyan85@gmail.com?subject=Alert%20triage%20request">
+        <a class="project" href="https://mail.google.com/mail/?view=cm&fs=1&to=sokhendearyan85@gmail.com&su=Alert%20triage%20request" target="_blank" rel="noopener noreferrer">
           <div class="project-meta"><span>SOC · TRIAGE</span><span>S2</span></div>
           <h3>Alert Triage</h3>
           <p>Review of security alerts to separate false positives from events that need escalation, with notes for handoff.</p>
           <span class="project-link">Request this ↗</span>
         </a>
-        <a class="project" href="mailto:sokhendearyan85@gmail.com?subject=Phishing%20email%20analysis%20request">
+        <a class="project" href="https://mail.google.com/mail/?view=cm&fs=1&to=sokhendearyan85@gmail.com&su=Phishing%20email%20analysis%20request" target="_blank" rel="noopener noreferrer">
           <div class="project-meta"><span>EMAIL · PHISHING</span><span>S3</span></div>
           <h3>Phishing Email Analysis</h3>
           <p>Check of sender, headers and links in a suspicious email, with a short written verdict and recommended next steps.</p>
@@ -108,7 +113,7 @@
           <p>Small Python tools for repetitive security tasks, such as log parsing, data-leak scanning and reporting.</p>
           <span class="project-link">See example tools ↗</span>
         </a>
-        <a class="project" href="mailto:sokhendearyan85@gmail.com?subject=Penetration%20testing%20request">
+        <a class="project" href="https://mail.google.com/mail/?view=cm&fs=1&to=sokhendearyan85@gmail.com&su=Penetration%20testing%20request" target="_blank" rel="noopener noreferrer">
           <div class="project-meta"><span>OFFENSIVE · AUTHORIZED ONLY</span><span>S7</span></div>
           <h3>Basic Penetration Testing</h3>
           <p>Entry-level web and network testing for a scope you approve in writing, with a clear report of findings and fixes. Lab-based experience.</p>
@@ -153,12 +158,22 @@
     <section class="contact">
       <div class="kicker">CONTACT</div>
       <h2>Connect with me</h2>
-      <p>For freelance security work, collaboration and entry-level opportunities. Email: <a class="text-link" href="mailto:sokhendearyan85@gmail.com">sokhendearyan85@gmail.com</a></p>
-      <a class="button primary" href="mailto:sokhendearyan85@gmail.com">Email me ↗</a>
+      <p>For freelance security work, collaboration and entry-level opportunities.</p>
+      <p class="email-line">Email: <strong id="email-text">sokhendearyan85@gmail.com</strong> <button type="button" class="copy-email" id="copy-email">Copy</button></p>
+      <a class="button primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=sokhendearyan85@gmail.com" target="_blank" rel="noopener noreferrer">Email me ↗</a>
       <a class="button secondary" href="https://www.linkedin.com/in/aryan-sokhende-980186368/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
       <a class="button secondary" href="https://github.com/sokhendearyan85-crypto">GitHub profile ↗</a>
     </section>
   </main>
   <footer><span>ARYAN · CYBERSECURITY PORTFOLIO</span><span><a href="https://www.linkedin.com/in/aryan-sokhende-980186368/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · Updated as I complete more lab work</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script>
+    (function(){var b=document.getElementById('copy-email');if(!b)return;
+      b.addEventListener('click',function(){
+        var t=document.getElementById('email-text').textContent.trim();
+        function done(){b.textContent='Copied ✓';setTimeout(function(){b.textContent='Copy';},2000);}
+        try{navigator.clipboard.writeText(t).then(done,function(){window.prompt('Copy this email:',t);});}
+        catch(e){window.prompt('Copy this email:',t);}
+      });})();
+  </script>
 </body>
 </html>
