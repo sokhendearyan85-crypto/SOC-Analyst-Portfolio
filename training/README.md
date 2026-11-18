@@ -1,11 +1,14 @@
 # Training
 
-## Completed course
+## Tutedude — Cyber Security Course
 
-- **Course:** Cybersecurity Course
+- **Learner name on certificate:** Aryan Sokhende
+- **Course:** Cyber Security
 - **Provider:** Tutedude
-- **Status:** Completed (as stated by the portfolio owner)
+- **Completion date:** 11 November 2026
+- **Certificate ID:** `TD-ARYA-CS-0613`
+- **Status:** Completed
 
-A certificate image, credential ID or verification URL has not been added to this repository. Add one only if the provider issued it and the owner wants it public.
+The certificate confirms completion of the Tutedude Cyber Security course. It is a course completion certificate, not a claim of a separate industry certification or professional licence.
 
-This entry records course completion; it does not claim a professional certification or imply accreditation beyond what the provider's course documentation states.
+**Certificate file:** The original PDF has been reviewed in this conversation, but it has not yet been uploaded to this GitHub repository. The certificate ID and details above are transcribed from the supplied PDF.
