@@ -36,8 +36,6 @@ The goal is to provide a warning before an email is sent, rather than relying on
 - Risk warnings and user-facing security controls
 - Iterative testing and debugging
 
-## Repository status
-
 ## Evidence and honest status
 
 The project overview is documentation of the prototype and the behavior observed during personal local testing. The extension source code is not included in this portfolio repository, so reviewers cannot independently reproduce the implementation from this repository yet. Do not treat the prototype as a production email-security control.
