@@ -38,4 +38,13 @@ The goal is to provide a warning before an email is sent, rather than relying on
 
 ## Repository status
 
-This document records the project design and observed prototype behavior. The extension source code is not included in this portfolio repository yet.
+## Evidence and honest status
+
+The project overview is documentation of the prototype and the behavior observed during personal local testing. The extension source code is not included in this portfolio repository, so reviewers cannot independently reproduce the implementation from this repository yet. Do not treat the prototype as a production email-security control.
+
+## Suggested next documentation milestones
+
+- Add sanitized screenshots of the Gmail warning state (remove personal email addresses and message content).
+- Add a short architecture diagram describing the compose detection, risk evaluation and send-interception stages.
+- Add a small test matrix with benign, suspicious and high-risk synthetic examples, recording expected and observed outcomes.
+- Include the extension source only after removing secrets, personal data and account-specific identifiers.
