@@ -2,6 +2,12 @@
 
 This repository documents my cybersecurity learning and practical blue-team work. It includes home-lab investigations, Splunk query notes, synthetic exercises and reusable response checklists. Evidence and limitations are labelled clearly.
 
+## Connect
+
+- [LinkedIn profile](https://www.linkedin.com/in/aryan-sokhende-980186368/)
+- [GitHub profile](https://github.com/sokhendearyan85-crypto)
+- [Live portfolio website](https://sokhendearyan85-crypto.github.io/SOC-Analyst-Portfolio/)
+
 ## Portfolio website
 
 - [Portfolio website source](index.html)
