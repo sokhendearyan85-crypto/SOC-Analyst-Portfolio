@@ -1,0 +1,54 @@
+COMPANY EMPLOYEE AND SYSTEM INFORMATION
+========================================
+
+Employee Name: Rahul Sharma
+Department: IT Support
+Employee Email: rahul.sharma@example.com
+Manager Email: manager@example.com
+
+Employee Details:
+The employee is responsible for maintaining internal systems,
+reviewing application logs, and helping the development team
+with basic troubleshooting.
+
+LOGIN INFORMATION
+=================
+
+Application: Internal Employee Portal
+Username: rahul_demo
+Password: DemoPassword123!
+Backup Password: FakeBackupPass456
+
+Email Information:
+Primary Email: rahul.sharma@example.com
+Recovery Email: recovery@example.com
+
+API CONFIGURATION
+=================
+
+Application Name: Employee Dashboard
+API_KEY = DEMO_FAKE_API_KEY_12345
+BACKUP_API_KEY: SAMPLE_ONLY_KEY_98765
+
+The above API keys are fake values created for testing
+the Sensitive Data Leak Detector project.
+
+SERVER INFORMATION
+==================
+
+Server Name: demo-server-01
+Server IP: 192.168.1.25
+Backup Server IP: 192.168.1.30
+
+Server Admin Email: admin@example.com
+Server Login Password: FakeServerPass789
+
+SECURITY NOTES
+==============
+
+1. Passwords should not be shared through email.
+2. API keys should be stored securely.
+3. Employee information should be handled carefully.
+4. All credentials in this file are fake test values.
+
+END OF FILE

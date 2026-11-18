@@ -1,0 +1,71 @@
+APPLICATION SECURITY TEST DATA
+================================
+
+Project Name: Customer Support Portal
+Environment: Development
+Owner: Demo Development Team
+
+CONTACT INFORMATION
+===================
+
+Developer Email: developer@example.com
+Support Email: support@example.com
+Security Email: security@example.com
+Backup Contact: backup@example.com
+
+CUSTOMER PORTAL LOGIN
+=====================
+
+Portal Username: demo_customer
+Password: TestAccountPass123
+
+Administrator Username: demo_admin
+Password: FakeAdminPass456
+
+Note: These passwords are fictional and are only included
+to test pattern detection.
+
+API CREDENTIALS
+===============
+
+Payment Service:
+API_KEY = DEMO_PAYMENT_KEY_123456
+
+Notification Service:
+API_KEY: FAKE_NOTIFICATION_KEY_789012
+
+Analytics Service:
+API_KEY = TEST_ANALYTICS_KEY_345678
+
+All API key values above are fake placeholders.
+
+APPLICATION CONFIGURATION
+=========================
+
+Application URL: https://example.com
+Development Server IP: 10.0.0.15
+Testing Server IP: 192.168.10.20
+
+Database Username: demo_user
+Database Password: FakeDatabasePass789
+
+INCIDENT NOTES
+==============
+
+During a routine security review, the team identified
+that developers sometimes include credentials in test files.
+
+The security team recommends:
+- Never store real passwords in plain-text files.
+- Never commit real API keys to public repositories.
+- Avoid sharing sensitive credentials through email.
+- Scan files before sharing them externally.
+
+REPORTING CONTACTS
+==================
+
+Project Lead: lead@example.com
+IT Administrator: itadmin@example.com
+Security Reviewer: reviewer@example.com
+
+END OF SECURITY TEST DATA

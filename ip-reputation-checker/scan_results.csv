@@ -1,0 +1,50 @@
+IP Address,Result
+137.184.9.29,No match found
+77.90.185.20,Listed in threat feed
+2026-10-09 16:39:20,77.90.185.20,POTENTIALLY MALICIOUS,IP found in the threat intelligence feed.,IPsum Level 3
+2026-10-09 16:42:04,192.0.2.1,NO MATCH FOUND,IP was not found in this feed. Safety is not guaranteed.,IPsum Level 3
+2026-10-09 16:49:09,192.132.100,INVALID IP,Please enter a valid IP address.,N/A
+2026-10-09 17:01:05,80.79.5.48,NO MATCH FOUND,,IP was not found in the successfully downloaded feeds.
+2026-10-09 18:05:55 IST,175.101.16.201,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:25:06 IST,175.101.16.201,POTENTIALLY MALICIOUS,"AbuseIPDB 30 Days, Threat Intel IPv4",40,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:26:44 IST,185.220.101.50,POTENTIALLY MALICIOUS,"AbuseIPDB 30 Days, Threat Intel IPv4",40,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:38:33 IST,59.89.72.241,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:38:34 IST,122.173.27.196,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:38:34 IST,122.166.120.34,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:40:33 IST,103.23.95.99,POTENTIALLY MALICIOUS,"IPsum Level 3, AbuseIPDB 30 Days, Threat Intel IPv4",60,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:40:33 IST,190.49.29.139,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:40:33 IST,113.163.238.121,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:42:27 IST,"103.23.95.99,190.49.29.139,113.163.238.121",INVALID IP,None,,NOT CHECKED,,,,Enter a valid IPv4 address.
+2026-10-09 18:43:46 IST,103.23.95.99,POTENTIALLY MALICIOUS,"IPsum Level 3, AbuseIPDB 30 Days, Threat Intel IPv4",60,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:43:46 IST,190.49.29.139,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:43:46 IST,113.163.238.121,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:44:37 IST,190.49.29.139,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-09 18:44:37 IST,103.23.95.99,POTENTIALLY MALICIOUS,"IPsum Level 3, AbuseIPDB 30 Days, Threat Intel IPv4",60,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:20:33 IST,80.79.5.48,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:23:12 IST,1.1.1.255,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:24:50 IST,194.9.6.5,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:25:05 IST,185.129.100.126,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:26:34 IST,8.8.8.8,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:27:16 IST,192.0.2.1,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-11 00:27:27 IST,192.168.1.1,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:51:13 IST,1.287.262.43,INVALID IP,None,,NOT CHECKED,,,,Enter a valid IPv4 address.
+2026-10-12 09:51:13 IST,1.187.183.44,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:51:13 IST,1.87.213.62,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:51:13 IST,1.187.218.73,POTENTIALLY MALICIOUS,Threat Intel IPv4,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:51:13 IST,1.39.179.108,POTENTIALLY MALICIOUS,Threat Intel IPv4,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:58:15 IST,27.133.154.218,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:58:15 IST,34.204.119.63,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:58:15 IST,50.16.16.211,POTENTIALLY MALICIOUS,"Abuse.ch Feodo Tracker, Threat Intel IPv4",40,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:58:15 IST,162.243.103.246,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 09:58:15 IST,178.62.3.223,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:02:20 IST,27.133.154.218,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:02:25 IST,34.204.119.63,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:02:29 IST,50.16.16.211,POTENTIALLY MALICIOUS,"Abuse.ch Feodo Tracker, Threat Intel IPv4",40,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:02:34 IST,162.243.103.246,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:03:16 IST,178.62.3.22327.133.154.218,INVALID IP,None,,NOT CHECKED,,,,Enter a valid IPv4 address.
+2026-10-12 10:03:16 IST,34.204.119.63,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:03:17 IST,50.16.16.211,POTENTIALLY MALICIOUS,"Abuse.ch Feodo Tracker, Threat Intel IPv4",40,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:03:17 IST,162.243.103.246,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:03:17 IST,178.62.3.223,POTENTIALLY MALICIOUS,Abuse.ch Feodo Tracker,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-10-12 10:05:40 IST,103.115.49.124,POTENTIALLY MALICIOUS,Threat Intel IPv4,20,NOT CONFIGURED,,,,VirusTotal API key is not configured.
+2026-11-13 12:45:59 IST,192.120.0.2,NO MATCH FOUND,None,0,NOT CONFIGURED,,,,VirusTotal API key is not configured.
