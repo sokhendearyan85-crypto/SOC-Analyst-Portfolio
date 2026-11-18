@@ -44,7 +44,7 @@ These are learning exercises and defensive reference notes, not claims of comple
 
 ## Training
 
-- **Cybersecurity Course — Tutedude:** Completed (course completion stated by me).
+- **Cybersecurity Course — Tutedude:** Completed. [Training record](training/README.md).
 - A certificate image or verification link has not been added to this repository yet.
 
 ## Tools and topics I have worked with
