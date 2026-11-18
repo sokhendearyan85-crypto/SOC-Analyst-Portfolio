@@ -35,7 +35,13 @@ These are example SPL searches. They are not presented as live search results un
 ### 4. Windows and Sysmon notes
 - [Sysmon Event ID 11 vs Event ID 3](windows-event-analysis/sysmon-event-11-vs-3.md)
 
-### 5. Phishing and suspicious-file triage
+### 5. PhishGuard — Gmail outgoing email scanner
+A personal Chrome-extension prototype that reviews outgoing Gmail messages, shows risk warnings and was observed blocking a high-risk test message during local testing. It is not a production or independently audited security product.
+
+- [Read the PhishGuard project overview](phishguard/README.md)
+- Status: prototype; extension source code is not included in this repository yet.
+
+### 6. Phishing and suspicious-file triage
 - [Synthetic phishing email triage exercise](phishing-analysis/synthetic-phishing-triage.md)
 - [Suspicious file alert triage workflow](malware-analysis/suspicious-file-alert-triage.md)
 - [Suspicious download response playbook](playbooks/suspicious-download-playbook.md)
