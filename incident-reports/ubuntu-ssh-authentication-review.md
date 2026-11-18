@@ -9,7 +9,24 @@
 
 ## 1. Scope and evidence
 
-This review is based on four Splunk screenshots supplied for this portfolio entry. The screenshots show searches over Ubuntu authentication logs.
+This review is based on four Splunk screenshots supplied from the Ubuntu VirtualBox lab. The original screenshots are embedded below so the observations can be checked against the source evidence.
+
+### Screenshot 1 — Overall Splunk event search
+
+![Splunk overall event search showing 416 matching events](Accepted%281%29.png)
+
+### Screenshot 2 — Accepted SSH password event
+
+![Accepted password event for vboxuser](Accepted_Pass.png)
+
+### Screenshot 3 — Failed SSH authentication messages
+
+![Failed SSH authentication messages for invalid admin and root](Rejected%281%29.png)
+
+### Screenshot 4 — Authentication log event window
+
+![Splunk authentication log results showing PAM failures and SSH retry-limit messages](Rejected_Pass.png)
+
 
 | Screenshot | Search / view | What is visible |
 |---|---|---|
@@ -118,4 +135,4 @@ This last query is a suggested follow-up search; it is not shown as executed in 
 The Splunk screenshots document SSH authentication failures involving `admin` and `root`, PAM retry-limit messages and a separate accepted password event for `vboxuser`. The correct SOC conclusion is to report the repeated failures as suspicious, validate the successful login with the lab owner, and avoid claiming a successful brute-force compromise without additional evidence.
 
 ---
-*Prepared from the lab screenshots supplied for this portfolio. Screenshot image files are referenced by their original names above; the written findings are based only on what is visible in those screenshots.*
+*Prepared from the four original Splunk screenshots supplied for this portfolio. The screenshots are embedded in this report; the written findings are limited to what is visible in them.*
