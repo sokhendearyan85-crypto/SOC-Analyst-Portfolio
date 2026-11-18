@@ -1,18 +1,26 @@
 # SOC Analyst Portfolio
 
-A public portfolio of practical cybersecurity learning projects focused on SOC operations, blue-team investigation, log analysis and incident response documentation.
+A portfolio of practical cybersecurity learning projects focused on SOC operations, blue-team investigation, security event analysis and incident response documentation.
 
-## Portfolio Website
+## 🌐 Portfolio Website
 
-A responsive portfolio homepage is included in this repository:
-- [Open the website source](index.html)
-- [View the portfolio repository](https://github.com/sokhendearyan85-crypto/SOC-Analyst-Portfolio)
+A responsive portfolio homepage is included in this repository. To publish it, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub Pages will show the published URL after deployment.
 
-**To publish the website:** open this repository's **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. GitHub will provide the public Pages URL after deployment.
+## Practical Work and Evidence
 
-## About
+### Authentication investigation
+- [Worked sample authentication report](incident-reports/sample-authentication-investigation.md) — a fictional event timeline with findings and limitations.
+- [Synthetic Windows authentication CSV](datasets/synthetic-authentication-events.csv) — small, reproducible dataset used for the sample scenario.
+- [Splunk authentication query pack](splunk-investigations/authentication-investigation-query-pack.md) — searches for event discovery, timelines and failure summaries.
+- [Incident report template](incident-reports/REPORT-TEMPLATE.md) — reusable evidence-based reporting structure.
 
-I am developing practical skills in security event analysis, alert triage, threat investigation and incident reporting. This repository documents learning exercises and lab-based investigations.
+### Windows and Sysmon
+- [Sysmon Event ID 11 vs Event ID 3 guide](windows-event-analysis/sysmon-event-11-vs-3.md) — file creation and network connection telemetry, sample SPL and investigation cautions.
+
+### Phishing and suspicious-file triage
+- [Synthetic phishing triage exercise](phishing-analysis/synthetic-phishing-triage.md) — fictional email indicators and a safe analysis workflow.
+- [Suspicious file alert triage](malware-analysis/suspicious-file-alert-triage.md) — metadata, endpoint correlation and defensive assessment workflow.
+- [Suspicious download response playbook](playbooks/suspicious-download-playbook.md) — triage, escalation and analyst handoff checklist.
 
 ## Technical Areas
 
@@ -21,22 +29,11 @@ I am developing practical skills in security event analysis, alert triage, threa
 - Linux fundamentals
 - Wireshark and network traffic analysis
 - Alert triage and event correlation
-- Phishing and malware alert analysis
+- Phishing and suspicious-file analysis
 - Incident response and technical reporting
 
-## Portfolio Sections
+## Evidence and Accuracy
 
-- [Incident Reports](incident-reports/README.md)
-- [Splunk Investigations](splunk-investigations/README.md)
-- [Windows Event Analysis](windows-event-analysis/README.md)
-- [Phishing Analysis](phishing-analysis/README.md)
-- [Malware Alert Analysis](malware-analysis/README.md)
-- [Incident Response Playbooks](playbooks/README.md)
+This repository distinguishes worked fictional examples, reusable guides and live lab results. The authentication dataset and sample report are synthetic. SPL snippets are examples and have not been represented as successful live searches. No client engagements, production incidents or certifications are claimed unless explicitly documented.
 
-## Reporting
-
-Use the [incident investigation report template](incident-reports/REPORT-TEMPLATE.md) to document investigations consistently.
-
-## Disclaimer
-
-All practical demonstrations are conducted in authorized lab environments and use synthetic or sanitized data. These are learning demonstrations, not claims about real client incidents. No confidential organization data, credentials or malware binaries are included.
+All practical demonstrations must use authorized lab environments and synthetic or sanitized data. No confidential organization data, credentials or malware binaries are included.
