@@ -1,0 +1,5 @@
+TimeCreated,Computer,EventCode,TargetUserName,IpAddress,LogonType,Status,Outcome
+2026-10-15T09:14:02Z,LAB-WIN-01,4625,lab.user,192.0.2.25,3,0xC000006D,Failed
+2026-10-15T09:14:19Z,LAB-WIN-01,4625,lab.user,192.0.2.25,3,0xC000006D,Failed
+2026-10-15T09:14:41Z,LAB-WIN-01,4625,lab.user,192.0.2.25,3,0xC000006D,Failed
+2026-10-15T09:15:08Z,LAB-WIN-01,4624,lab.user,192.0.2.25,3,,Successful
